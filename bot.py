@@ -8,16 +8,9 @@ consumer_key = "TwitterAppConsumerKey"
 consumer_secret = "TwitterAppConsumerKeySecret"
 access_token = "TwitterAppAccessToken"
 access_token_secret = "TwitterAppAccessTokenSecret"
-handle = "TwitterHandle" # Your twitter bot’s handle WITHOUT the @ sign
+handle = "VesVesely" # Your twitter bot’s handle WITHOUT the @ sign
 
-print(''' &&&&&&\                      &&\              
-&&  __&&\                     && |             
-&& /  \__| &&&&&&\   &&&&&&&\ &&&&&&&\         
-&& |&&&&\  \____&&\ &&  _____|&&  __&&\        
-&& |\_&& | &&&&&&& |\&&&&&&\  && |  && |       
-&& |  && |&&  __&& | \____&&\ && |  && |       
-\&&&&&&  |\&&&&&&& |&&&&&&&  |&& |  && |       
- \______/  \_______|\_______/ \__|  \__|       
+print('''     
                                                
                                                
                                                
@@ -30,9 +23,12 @@ print(''' &&&&&&\                      &&\
                   &&&&&&&  |\&&&&&&  | \&&&&  |
                   \_______/  \______/   \____/ 
                                                
+                   
+		   
+		   
+		   
                                                
-                                               
-Verson 1.1.0 beta // Made by Banakin // https://banakin.net''')
+Version 1.1.0 beta // Made by Banakin // https://banakin.net''')
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
